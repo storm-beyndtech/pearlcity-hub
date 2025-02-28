@@ -37,8 +37,8 @@ export default function Navbar() {
 
 			{/* Mobile Menu */}
 			<div
-				className={`fixed top-0 right-0 z-999999 w-[240px] h-screen flex flex-col justify-center bg-darkBlue2 p-10 transform transition-transform ${
-					menuOpen ? "translate-x-0" : "translate-x-full"
+				className={`fixed top-0 right-0 z-999999 h-screen flex-col justify-center bg-darkBlue2 p-10 transform transition-transform ${
+					menuOpen ? "translate-x-0 flex" : "translate-x-full hidden"
 				}`}
 				onClick={() => setMenuOpen(false)}
 			>
