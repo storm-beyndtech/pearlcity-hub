@@ -7,7 +7,7 @@ export default function Map() {
 				<div className="max-ctn mb-16  text-center">
 					<p className="text-brandPurple font-semibold text-sm">No Regional restriction</p>
 
-					<h2 className="text-3xl font-semibold text-darkBlue leading-snug mt-3">
+					<h2 className="text-2xl sm:text-3xl font-semibold text-darkBlue leading-snug mt-3">
 						We've Assembled <br />
 						Classes Remotely
 					</h2>
