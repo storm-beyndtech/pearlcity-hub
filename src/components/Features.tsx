@@ -5,7 +5,6 @@ export default function Features() {
 		<section className="py-10">
 			<div className="max-ctn mb-16  text-center">
 				<p className="text-brandPurple font-semibold text-sm">You First</p>
-
 				<h2 className="text-3xl font-semibold text-darkBlue leading-snug mt-3">Sublime Features</h2>
 			</div>
 

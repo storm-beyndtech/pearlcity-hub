@@ -90,7 +90,7 @@ export default function WhyChooseUs() {
 
 			{/* Wrapper with scroll */}
 			<div
-				className="max-ctn !max-w-[1600px] flex gap-6 overflow-x-scroll no-scrollbar my-5 sm:px-0 px-1"
+				className="max-ctn flex gap-6 overflow-x-scroll no-scrollbar my-5 sm:px-0 px-1"
 				ref={slideSectionWrapperRef}
 			>
 				{courses.map((course, index) => (

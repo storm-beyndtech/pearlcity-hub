@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
 	return (
@@ -20,11 +21,26 @@ export default function Footer() {
 				</div>
 
 				{/* Socials */}
-				<div className="flex items-center gap-4"></div>
+				<div className="flex items-center gap-4">
+					{/* <Link to="#" className="social-icon">
+						<FaTwitter className="text-base" />
+					</Link> */}
+					<Link to="#" className="social-icon">
+						<FaInstagram className="text-base" />
+					</Link>
+					<Link to="#" className="social-icon">
+						<FaFacebookF className="text-base" />
+					</Link>
+					<Link to="#" className="social-icon">
+						<FaLinkedinIn className="text-base" />
+					</Link>
+				</div>
 			</footer>
 
-			<div className="max-ctn py-6">
-				<p className="mx-auto"></p>
+			<div className="max-ctn pt-6 pb-3 border-t border-gray-200">
+				<p className="text-center text-xs text-gray-400">
+					© Copyright 2025, All Rights Reserved by Pearlcity Hub
+				</p>
 			</div>
 		</>
 	);

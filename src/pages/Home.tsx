@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Map from "../components/Map";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
+import Reviews from "../components/Reviews";
 import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
 			<Courses />
 			<Map />
 			<Features />
-			<WhyChooseUs />
+      <WhyChooseUs />
+      <Reviews />
 			<Newsletter />
 			<Footer />
 		</div>
