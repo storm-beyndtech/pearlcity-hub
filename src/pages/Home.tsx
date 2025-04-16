@@ -1,3 +1,4 @@
+import CoursePricing from "../components/CoursePricing";
 import Courses from "../components/Courses";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
@@ -10,16 +11,20 @@ import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
 	return (
-		<div>
+		<main>
 			<Navbar />
 			<Hero />
 			<Courses />
 			<Map />
 			<Features />
-      <WhyChooseUs />
-      <Reviews />
+			<WhyChooseUs />
+			<Reviews />
+			<div className="py-10">
+				<h2 className="max-ctn mb-5 text-center text-3xl font-semibold text-darkBlue">Pricing</h2>
+				<CoursePricing />
+			</div>
 			<Newsletter />
 			<Footer />
-		</div>
+		</main>
 	);
 }

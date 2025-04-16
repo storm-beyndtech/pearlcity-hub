@@ -12,7 +12,7 @@ export default function Hero() {
 					<span className="text-brandPurple max-sm:text-[11vw] block">Empowering</span> Minds Across the
 					Globe, One <span className="text-brandPurple"> Skill</span> at a Time
 				</h1>
-				<p className="max-w-2xl max-sm:max-w-[290px] sm:mx-auto mt-5 sm:mt-10 text-gray-500 text-base md:text-lg leading-7">
+				<p className="max-w-2xl sm:mx-auto mt-5 sm:mt-10 text-gray-500 md:text-lg leading-7">
 					Discover a universe of possibilities with practical training designed to launch individuals and
 					businesses into the future of technology.
 				</p>

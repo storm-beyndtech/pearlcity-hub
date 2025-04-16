@@ -11,7 +11,7 @@ export default function Newsletter() {
 					<input
 						placeholder="Enter Your Email"
 						className="px-5 py-3 rounded-lg border border-brandPurple 
-          focus:border-brandGreen outline-none placeholder:text-gray-400"
+          focus:border-brandGreen outline-none placeholder:text-gray-600"
 					/>
 					<button className="bg-brandGreen text-black px-7 max-sm:px-5 py-3 font-semibold rounded-lg">
 						Subscribe Now

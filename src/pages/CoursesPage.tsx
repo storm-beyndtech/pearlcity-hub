@@ -1,17 +1,17 @@
-import CoursePricing from "../components/CoursePricing";
+import CoursesFlat from "../components/CoursesFlat";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import SmallHero from "../components/SmallHero";
 import WhyChooseUs from "../components/WhyChooseUs";
-import { pricingHero } from "../utils/util";
+import { coursesHero } from "../utils/util";
 
-export default function Pricing() {
+export default function CoursesPage() {
 	return (
 		<div>
 			<Navbar />
-			<SmallHero title1={pricingHero.title1} title2={pricingHero.title2} subtitle={pricingHero.subtitle} />
-			<CoursePricing />
+			<SmallHero title1={coursesHero.title1} title2={coursesHero.title2} subtitle={coursesHero.subtitle} />
+			<CoursesFlat />
 			<WhyChooseUs />
 			<Newsletter />
 			<Footer />

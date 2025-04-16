@@ -7,7 +7,7 @@ export default function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
-		<header className="w-full customBlur bg-bg/80 fixed top-0 z-99999 inset-x-0">
+		<header className="w-full customBlur bg-bg/50 fixed top-0 z-99999 inset-x-0">
 			<nav className="max-ctn flex justify-between items-center py-4">
 				{/* Logo */}
 				<Link to="/">
@@ -62,18 +62,18 @@ export default function Navbar() {
 const menuList = [
 	{
 		label: "Services",
-		to: "services",
+		to: "/services",
 	},
 	{
 		label: "About",
-		to: "about",
+		to: "/about",
 	},
 	{
 		label: "Pricing",
-		to: "pricing",
+		to: "/pricing",
 	},
 	{
-		label: "Online",
-		to: "online",
+		label: "Contact",
+		to: "/contact",
 	},
 ];

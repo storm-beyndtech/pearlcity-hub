@@ -98,7 +98,7 @@ export default function WhyChooseUs() {
 						key={index}
 						className="grid gap-4 sm:w-88 w-full min-h-50 bg-[#F9F7FC] p-6 shadow-xs rounded-lg shrink-0"
 					>
-						<p className="text-[#8E9198] text-sm">{course.description}</p>
+						<p className="text-[#8E9198] text-sm leading-relaxed">{course.description}</p>
 
 						<div className="flex justify-between items-center">
 							<h3 className="text-xl font-semibold text-darkBlue">

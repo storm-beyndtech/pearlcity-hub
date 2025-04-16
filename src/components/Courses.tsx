@@ -112,10 +112,10 @@ export default function Courses() {
 							</h3>
 
 							<div className="w-15 h-15 grid place-content-center p-2.5 rounded-[30%] bg-brandPurple/5">
-								<img src={course.img} alt="course logo" className="w-full" />
+								<img src={course.img} alt="course logo" className="w-full p-1" />
 							</div>
 						</div>
-						<p className="text-[#8E9198] text-sm">{course.description}</p>
+						<p className="text-[#8E9198] text-sm leading-relaxed">{course.description}</p>
 						<p className="font-semibold text-darkBlue flex items-center gap-3">
 							<img src={calendar} alt="icon" />
 							{course.duration}

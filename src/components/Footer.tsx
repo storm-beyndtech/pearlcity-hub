@@ -22,9 +22,6 @@ export default function Footer() {
 
 				{/* Socials */}
 				<div className="flex items-center gap-4">
-					{/* <Link to="#" className="social-icon">
-						<FaTwitter className="text-base" />
-					</Link> */}
 					<Link to="#" className="social-icon">
 						<FaInstagram className="text-base" />
 					</Link>
@@ -49,14 +46,14 @@ export default function Footer() {
 const menuList = [
 	{
 		label: "Services",
-		to: "services",
+		to: "/services",
 	},
 	{
 		label: "Faq",
-		to: "faq",
+		to: "/faq",
 	},
 	{
 		label: "Pricing",
-		to: "pricing",
+		to: "/pricing",
 	},
 ];
