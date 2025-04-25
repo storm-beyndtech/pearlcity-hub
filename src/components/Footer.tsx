@@ -22,15 +22,15 @@ export default function Footer() {
 
 				{/* Socials */}
 				<div className="flex items-center gap-4">
-					<Link to="#" className="social-icon">
+					<a href="https://www.instagram.com/pearlcity_hub/" className="social-icon">
 						<FaInstagram className="text-base" />
-					</Link>
-					<Link to="#" className="social-icon">
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=61570301254562" className="social-icon">
 						<FaFacebookF className="text-base" />
-					</Link>
-					<Link to="#" className="social-icon">
+					</a>
+					<a href="https://www.linkedin.com/company/pearlcity-hub/" className="social-icon">
 						<FaLinkedinIn className="text-base" />
-					</Link>
+					</a>
 				</div>
 			</footer>
 
