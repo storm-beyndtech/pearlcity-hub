@@ -23,16 +23,24 @@ export default function Footer() {
 
 				{/* Socials */}
 				<div className="flex items-center gap-4">
-					<a href="https://www.instagram.com/pearlcity_hub/" className="social-icon">
+					<a href="https://www.instagram.com/pearlcity_hub/" target="_blank" className="social-icon">
 						<FaInstagram className="text-base" />
 					</a>
-					<a href="https://www.facebook.com/profile.php?id=61570301254562" className="social-icon">
+					<a
+						href="https://www.facebook.com/profile.php?id=61570301254562"
+						target="_blank"
+						className="social-icon"
+					>
 						<FaFacebookF className="text-base" />
 					</a>
-					<a href="https://www.linkedin.com/company/pearlcity-hub/" className="social-icon">
+					<a href="https://www.linkedin.com/company/pearlcity-hub/" target="_blank" className="social-icon">
 						<FaLinkedinIn className="text-base" />
 					</a>
-					<a href="https://x.com/PearlcityH20366?t=B4-Tri6Eod0FTeabU58rnQ&s=09" className="social-icon">
+					<a
+						href="https://x.com/PearlcityH20366?t=B4-Tri6Eod0FTeabU58rnQ&s=09"
+						target="_blank"
+						className="social-icon"
+					>
 						<FaXTwitter className="text-base" />
 					</a>
 				</div>
