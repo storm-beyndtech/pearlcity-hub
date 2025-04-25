@@ -49,10 +49,6 @@ const menuList = [
 		to: "/services",
 	},
 	{
-		label: "Faq",
-		to: "/faq",
-	},
-	{
 		label: "Pricing",
 		to: "/pricing",
 	},

@@ -5,6 +5,7 @@ import jsLogo from "../assets/courses/js.svg";
 import nextLogo from "../assets/courses/next.svg";
 import figmaLogo from "../assets/courses/figma.svg";
 import psLogo from "../assets/courses/ps.svg";
+import { Link } from "react-router-dom";
 
 type Course = {
 	title: string;
@@ -76,7 +77,7 @@ const CourseCard = ({ course, featured = false }: { course: Course; featured: bo
 	return (
 		<div
 			className={`w-full max-w-94 relative flex flex-col h-full rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl ${
-				featured ? "border border-green-200 shadow-lg" : "border border-gray-200 shadow"
+				featured ? "border border-violet-200 shadow-lg" : "border border-gray-200 shadow"
 			}`}
 		>
 			{featured && (
@@ -110,17 +111,18 @@ const CourseCard = ({ course, featured = false }: { course: Course; featured: bo
 							</span>
 						)}
 					</div>
-
-					<button
-						className={`w-full py-3 px-4 rounded-lg font-medium flex items-center justify-center transition-colors ${
-							featured
-								? "bg-brandPurple text-white hover:bg-indigo-700"
-								: "bg-white text-brandPurple border border-brandPurple hover:bg-indigo-50"
-						}`}
-					>
-						Register Now
-						<ArrowRight className="ml-2 w-4 h-4" />
-					</button>
+					<Link to="/register">
+						<button
+							className={`w-full py-3 px-4 rounded-lg font-medium flex items-center justify-center transition-colors ${
+								featured
+									? "bg-brandPurple text-white hover:bg-indigo-700"
+									: "bg-white text-brandPurple border border-brandPurple hover:bg-indigo-50"
+							}`}
+						>
+							Register Now
+							<ArrowRight className="ml-2 w-4 h-4" />
+						</button>
+					</Link>
 				</div>
 			</div>
 
@@ -168,14 +170,6 @@ const CoursePricing = () => {
 							All Courses
 						</button>
 						<button
-							onClick={() => setSelectedTab("dev")}
-							className={`px-4 py-2 text-sm font-medium rounded-md ${
-								selectedTab === "dev" ? "bg-white shadow text-gray-900" : "text-gray-500 hover:text-gray-700"
-							}`}
-						>
-							Dev
-						</button>
-						<button
 							onClick={() => setSelectedTab("design")}
 							className={`px-4 py-2 text-sm font-medium rounded-md ${
 								selectedTab === "design"
@@ -185,11 +179,19 @@ const CoursePricing = () => {
 						>
 							Design
 						</button>
+						<button
+							onClick={() => setSelectedTab("dev")}
+							className={`px-4 py-2 text-sm font-medium rounded-md ${
+								selectedTab === "dev" ? "bg-white shadow text-gray-900" : "text-gray-500 hover:text-gray-700"
+							}`}
+						>
+							Dev
+						</button>
 					</div>
 				</div>
 			</div>
 
-			<div className="max-ctn flex flex-wrap justify-center gap-8">
+			<div className="max-ctn flex flex-wrap justify-center gap-10 gap-y-20">
 				{filteredCourses.map((course, index) => (
 					<CourseCard
 						key={index}
@@ -201,10 +203,12 @@ const CoursePricing = () => {
 
 			<div className="mt-16 text-center">
 				<p className="text-gray-600 mb-4">Not sure which course is right for you?</p>
-				<button className="inline-flex items-center text-brandPurple font-medium hover:text-indigo-700">
-					Schedule a free consultation
-					<ArrowRight className="ml-2 w-4 h-4" />
-				</button>
+				<Link to="/contact">
+					<button className="inline-flex items-center text-brandPurple font-medium hover:text-indigo-700">
+						Schedule a free consultation
+						<ArrowRight className="ml-2 w-4 h-4" />
+					</button>
+				</Link>
 			</div>
 		</div>
 	);

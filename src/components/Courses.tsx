@@ -120,7 +120,10 @@ export default function Courses() {
 							<img src={calendar} alt="icon" />
 							{course.duration}
 						</p>
-						<Link to="#" className="font-semibold text-darkBlue flex items-center gap-3">
+						<Link
+							to={`/courses/${course.href}`}
+							className="font-semibold text-darkBlue flex items-center gap-3"
+						>
 							Read more <ArrowRight size={14} />
 						</Link>
 					</div>
@@ -138,6 +141,7 @@ const courses = [
 			"Kickstart your journey as a Front-End Dev today. Master the skills to craft exceptional websites and interactive apps.",
 		duration: "3 Months | 3 days weekly",
 		img: reactLogo,
+		href: "frontend-development",
 	},
 	{
 		title: "Backend",
@@ -146,6 +150,7 @@ const courses = [
 			"Deploy powerful web and mobile apps with Node.js. Leverage a robust ecosystem to build scalable applications.",
 		duration: "3 Months | 3 days weekly",
 		img: jsLogo,
+		href: "backend-development",
 	},
 	{
 		title: "Full Stack",
@@ -154,6 +159,7 @@ const courses = [
 			"Build scalable apps with JavaScript frameworks like React and Node.js, integrating databases for efficient solutions.",
 		duration: "6 Months | 3 days weekly",
 		img: nextLogo,
+		href: "fullstack-development",
 	},
 	{
 		title: "UI/UX",
@@ -162,6 +168,7 @@ const courses = [
 			"UI/UX design skills are highly sought after and versatile, spanning various products and industries. With a strong focus on enhancing customer experiences.",
 		duration: "3 Months | 3 days weekly",
 		img: figmaLogo,
+		href: "ui-ux-design",
 	},
 	{
 		title: "Graphic",
@@ -170,5 +177,6 @@ const courses = [
 			"Unlock your creative potential and learn how to bring ideas to life through visual design. Create compelling designs for print, digital media, and beyond.",
 		duration: "3 Months | 3 days weekly",
 		img: psLogo,
+		href: "graphic-design",
 	},
 ];

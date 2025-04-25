@@ -13,16 +13,16 @@ const Alert: React.FC<AlertProps> = ({ type = "info", message }) => {
 	const alertConfig = {
 		success: {
 			icon: CheckCircle,
-			bgColor: "bg-green-50",
+			bgColor: "bg-green-500/10",
 			borderColor: "border-green-500",
-			textColor: "text-green-800",
+			textColor: "text-green-600",
 			iconColor: "text-green-500",
 		},
 		error: {
 			icon: AlertCircle,
-			bgColor: "bg-red-50",
+			bgColor: "bg-red-600/15",
 			borderColor: "border-red-500",
-			textColor: "text-red-800",
+			textColor: "text-red-600",
 			iconColor: "text-red-500",
 		},
 		warning: {

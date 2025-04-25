@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight, BarChart2, Code, Layout, MessageCircle, Users } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface ServiceCardProps {
 	icon: React.ReactNode;
@@ -16,13 +17,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
 			</div>
 			<h3 className="text-lg font-semibold mb-2">{title}</h3>
 			<p className="text-gray-400 mb-4 text-sm">{description}</p>
-			<a
-				href="#"
+			<Link
+				to="/contact"
 				className="text-violet-600 font-medium flex items-center gap-1 hover:gap-2 transition-all duration-300"
 			>
 				Send us a message
 				<ArrowRight size={16} />
-			</a>
+			</Link>
 		</div>
 	);
 };

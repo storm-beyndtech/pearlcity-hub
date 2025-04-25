@@ -8,10 +8,10 @@ interface ISmallHero {
 
 export default function SmallHero({ title1, title2, subtitle }: ISmallHero) {
 	return (
-		<section className="relative w-full h-100 overflow-hidden">
-			<div className="md:text-center pt-40 max-sm:pt-30 max-md:px-4 absolute inset-0 z-2">
+		<section className="relative w-full min-h-40 max-h-100 pb-10 overflow-hidden">
+			<div className="md:text-center pt-30 max-sm:pt-30 max-md:px-4 absolute inset-0 z-2">
 				<h1
-					className="max-w-2xl max-sm:tracking-wide mx-auto text-[12vw] 
+					className="max-w-4xl max-sm:tracking-wide mx-auto text-[12vw] 
         lg:text-7xl md:text-6xl font-semibold max-sm:font-bold text-gray-900 md:leading-22 leading-[12vw]"
 				>
 					<span className="max-sm:text-[11vw] block">{title1 !== "" && title1}</span> {title2 && title2}
