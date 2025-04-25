@@ -59,7 +59,7 @@ export default function Newsletter() {
 					<div className="flex max-sm:flex-col justify-center gap-4 w-full">
 						<input
 							placeholder="Enter Your Email"
-							className="px-5 py-3 rounded-lg border border-brandPurple 
+							className="px-5 py-3 rounded-lg border border-brandPurple text-white
 							focus:border-brandGreen outline-none placeholder:text-gray-600"
 							type="email"
 							value={email}
