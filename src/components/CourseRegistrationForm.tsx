@@ -26,7 +26,7 @@ interface FormErrors {
 	[key: string]: string | null;
 }
 
-export default function CourseRegistrationForm(): JSX.Element {
+export default function CourseRegistrationForm() {
 	const initialFormData: FormData = {
 		fullName: "",
 		email: "",
