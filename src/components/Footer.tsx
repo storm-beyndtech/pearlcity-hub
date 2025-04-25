@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
 	return (
@@ -30,6 +31,9 @@ export default function Footer() {
 					</a>
 					<a href="https://www.linkedin.com/company/pearlcity-hub/" className="social-icon">
 						<FaLinkedinIn className="text-base" />
+					</a>
+					<a href="https://x.com/PearlcityH20366?t=B4-Tri6Eod0FTeabU58rnQ&s=09" className="social-icon">
+						<FaXTwitter className="text-base" />
 					</a>
 				</div>
 			</footer>
