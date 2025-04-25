@@ -3,6 +3,7 @@ import jsLogo from "../assets/courses/js.svg";
 import nextLogo from "../assets/courses/next.svg";
 import figmaLogo from "../assets/courses/figma.svg";
 import psLogo from "../assets/courses/ps.svg";
+import cloudLogo from "../assets/courses/cloud.svg";
 
 const coursesData = [
 	{
@@ -306,6 +307,64 @@ const coursesData = [
 					{ name: "Print Design, Layout, and Production Techniques", task: "Project" },
 					{ name: "Digital Media, Social Graphics, and Web Assets", task: "Project" },
 					{ name: "Professional Portfolio Development and Presentation", task: "Final Project" },
+				],
+			},
+		],
+	},
+	{
+		title: "Cloud",
+		title2: "Engineering",
+		slug: "cloud-engineering",
+		description:
+			"Master cloud infrastructure and DevOps practices. Learn AWS, Azure, containerization, CI/CD pipelines, and infrastructure as code to build scalable, resilient systems.",
+		fullDescription:
+			"Become proficient in designing, implementing, and managing cloud-based systems with our comprehensive Cloud Engineering course. Learn to architect scalable infrastructure on major cloud platforms, implement containerization, build automated CI/CD pipelines, and employ Infrastructure as Code practices for modern application deployment.",
+		duration: "3 Months | 3 days weekly",
+		level: "Intermediate",
+		img: cloudLogo,
+		cost: "$200 (Flexible Payment)",
+		projects: "3 Cloud Infrastructure Projects",
+		schedule: "Tuesdays, Thursdays, and Saturdays",
+		prerequisites: [
+			"A Laptop (8GB RAM, 256GB SSD recommended)",
+			"Basic understanding of networking concepts",
+			"Familiarity with command line interfaces",
+		],
+		aboutContent:
+			"Cloud Engineering combines infrastructure management, automation, and DevOps practices to build and maintain scalable cloud-based systems. In this course, you'll learn to architect solutions on major cloud platforms, implement containerization with Docker and Kubernetes, design CI/CD pipelines, and utilize Infrastructure as Code tools like Terraform. You'll master monitoring, security best practices, and cost optimization strategies to create efficient, reliable cloud systems.",
+		benefits: [
+			"Gain hands-on experience with AWS, Azure, and Google Cloud Platform",
+			"Master containerization and orchestration with Docker and Kubernetes",
+			"Build automated CI/CD pipelines for continuous deployment",
+			"Implement Infrastructure as Code using Terraform and CloudFormation",
+			"Learn cloud security, compliance, and cost optimization strategies",
+		],
+		modules: [
+			{
+				title: "Cloud Platforms and Infrastructure",
+				topics: [
+					{ name: "Introduction to Cloud Computing and Service Models", task: "Assignment" },
+					{ name: "AWS Core Services - EC2, S3, RDS, and IAM", task: "Assignment" },
+					{ name: "Virtual Networks, Load Balancing, and Auto-scaling", task: "Project" },
+					{ name: "Multi-cloud Strategies and Azure/GCP Fundamentals", task: "Project" },
+				],
+			},
+			{
+				title: "Containerization and Orchestration",
+				topics: [
+					{ name: "Docker Fundamentals and Container Management", task: "Assignment" },
+					{ name: "Kubernetes Architecture and Cluster Deployment", task: "Project" },
+					{ name: "Container Security and Resource Management", task: "Assignment" },
+					{ name: "Implementing Microservices with Containers", task: "Project" },
+				],
+			},
+			{
+				title: "DevOps and Infrastructure Automation",
+				topics: [
+					{ name: "Infrastructure as Code with Terraform", task: "Assignment" },
+					{ name: "CI/CD Pipeline Design and Implementation", task: "Project" },
+					{ name: "Monitoring, Logging, and Observability in the Cloud", task: "Project" },
+					{ name: "Cloud Security, Compliance, and Cost Optimization", task: "Final Project" },
 				],
 			},
 		],

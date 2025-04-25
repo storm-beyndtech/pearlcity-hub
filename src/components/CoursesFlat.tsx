@@ -3,6 +3,7 @@ import jsLogo from "../assets/courses/js.svg";
 import nextLogo from "../assets/courses/next.svg";
 import figmaLogo from "../assets/courses/figma.svg";
 import psLogo from "../assets/courses/ps.svg";
+import cloudLogo from "../assets/courses/cloud.svg";
 import calendar from "../assets/icons/calendar.svg";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -88,5 +89,14 @@ const courses = [
 		duration: "3 Months | 3 days weekly",
 		img: psLogo,
 		href: "graphic-design",
-	},
+  },
+  {
+    title: "Cloud",
+    title2: "Engineering",
+    description:
+      "Master cloud platforms, DevOps practices, and infrastructure automation. Build scalable, secure systems with AWS, containers, and CI/CD pipelines. Learn to architect resilient cloud solutions for modern applications.",
+    duration: "3 Months | 3 days weekly",
+    img: cloudLogo,
+    href: "cloud-engineering",
+  }
 ];
