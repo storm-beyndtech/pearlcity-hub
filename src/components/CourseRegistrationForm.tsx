@@ -51,7 +51,7 @@ export default function CourseRegistrationForm() {
 		{ id: "frontend-development", name: "Frontend Development" },
 		{ id: "backend-development", name: "Backend Development" },
 		{ id: "fullstack-development", name: "Full Stack Development" },
-		{ id: "cloud-engineering", name: "Cloud Engineering" },
+		{ id: "cloud-fundamentals", name: "Cloud Fundamentals" },
 		{ id: "ui-ux-design", name: "UI/UX Design" },
 		{ id: "graphic-design", name: "Graphic Design" },
 	];

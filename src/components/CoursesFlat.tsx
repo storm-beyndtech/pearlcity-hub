@@ -50,7 +50,7 @@ const courses = [
 		title2: "Development",
 		description:
 			"Kickstart your journey as a Front-End Dev today. Master the skills to craft exceptional websites and interactive apps. Learn to create dynamic, responsive, and user-friendly designs for all screen sizes.",
-		duration: "3 Months | 3 days weekly",
+		duration: "3 Months | 2 days weekly",
 		img: reactLogo,
 		href: "frontend-development",
 	},
@@ -59,7 +59,7 @@ const courses = [
 		title2: "Development",
 		description:
 			"Deploy powerful web and mobile apps with Node.js. Leverage a robust ecosystem to build scalable applications. Gain expertise in APIs, databases, authentication, and clean backend architecture.",
-		duration: "3 Months | 3 days weekly",
+		duration: "3 Months | 2 days weekly",
 		img: jsLogo,
 		href: "backend-development",
 	},
@@ -68,7 +68,7 @@ const courses = [
 		title2: "Development",
 		description:
 			"Build scalable apps with JavaScript frameworks like React and Node.js, integrating databases for efficient solutions. Master full stack development from frontend to backend and everything in between.",
-		duration: "6 Months | 3 days weekly",
+		duration: "6 Months | 4 days weekly",
 		img: nextLogo,
 		href: "fullstack-development",
 	},
@@ -77,7 +77,7 @@ const courses = [
 		title2: "Design",
 		description:
 			"UI/UX design skills are highly sought after and versatile, spanning various products and industries. Focus on enhancing customer experiences with engaging, intuitive, and beautiful user-centered design.",
-		duration: "3 Months | 3 days weekly",
+		duration: "3 Months | 2 days weekly",
 		img: figmaLogo,
 		href: "ui-ux-design",
 	},
@@ -86,17 +86,17 @@ const courses = [
 		title2: "Design",
 		description:
 			"Unlock your creative potential and learn how to bring ideas to life through visual design. Create compelling designs for print, digital media, and beyond. Develop a strong professional portfolio.",
-		duration: "3 Months | 3 days weekly",
+		duration: "3 Months | 2 days weekly",
 		img: psLogo,
 		href: "graphic-design",
   },
   {
     title: "Cloud",
-    title2: "Engineering",
+    title2: "Fundamentals",
     description:
       "Master cloud platforms, DevOps practices, and infrastructure automation. Build scalable, secure systems with AWS, containers, and CI/CD pipelines. Learn to architect resilient cloud solutions for modern applications.",
-    duration: "3 Months | 3 days weekly",
+    duration: "3 Months | 2 days weekly",
     img: cloudLogo,
-    href: "cloud-engineering",
+    href: "cloud-fundamentals",
   }
 ];
