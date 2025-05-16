@@ -24,7 +24,13 @@ export default function Navbar() {
 				</div>
 
 				<div className="flex items-center gap-4">
-					{/* Browse Courses Button */}
+					<Link
+						to="http://mail.hostinger.com"
+						className="border border-brandPurple text-brandPurple  px-5 py-[7px] text-sm font-semibold rounded max-sm:hidden"
+					>
+						Login Webmail
+					</Link>
+
 					<Link
 						to="/courses"
 						className="bg-brandPurple text-white px-4 max-sm:px-3 py-2 max-sm:py-1.5 max-sm:text-xs text-sm font-medium rounded-xs"
@@ -52,6 +58,13 @@ export default function Navbar() {
 								{label}
 							</Link>
 						))}
+
+						<Link
+							to="http://mail.hostinger.com"
+							className="border border-brandPurple text-brandPurple max-sm:text-white px-5 py-[7px] text-sm font-semibold rounded"
+						>
+							Login Webmail
+						</Link>
 					</div>
 				</div>
 			</nav>
