@@ -23,52 +23,52 @@ const courses = [
 		title2: "Dev",
 		description:
 			"Kickstart your journey as a Front-End Dev today. Master the skills to craft exceptional websites and interactive apps.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		img: reactLogo,
-		price: 250,
+		price: 140,
 	},
 	{
 		title: "Backend",
 		title2: "Dev",
 		description:
 			"Deploy powerful web and mobile apps with Node.js. Leverage a robust ecosystem to build scalable applications.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		img: jsLogo,
-		price: 300,
+		price: 140,
 	},
 	{
 		title: "Full Stack",
 		title2: "Dev",
 		description:
 			"Build scalable apps with JavaScript frameworks like React and Node.js, integrating databases for efficient solutions.",
-		duration: "6 Months | 4 days weekly",
+		duration: "4 Months | 4 days weekly",
 		img: nextLogo,
-		price: 500,
+		price: 200,
 	},
 	{
 		title: "UI/UX",
 		title2: "Design",
 		description:
 			"UI/UX design skills are highly sought after and versatile, spanning various products and industries. With a strong focus on enhancing customer experiences.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		img: figmaLogo,
-		price: 130,
+		price: 120,
 	},
 	{
 		title: "Graphic",
 		title2: "Design",
 		description:
 			"Unlock your creative potential and learn how to bring ideas to life through visual design. Create compelling designs for print, digital media, and beyond.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		img: psLogo,
-		price: 130,
+		price: 100,
 	},
 	{
 		title: "Cloud",
 		title2: "Fundamentals",
 		description:
 			"Master cloud platforms, DevOps practices, and infrastructure automation. Build scalable, secure systems with AWS, containers, and CI/CD pipelines.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		img: cloudLogo,
 		price: 200,
 	},
@@ -112,9 +112,9 @@ const CourseCard = ({ course, featured = false }: { course: Course; featured: bo
 				<p className="text-gray-600 text-sm mb-6 line-clamp-3 leading-relaxed my-7.5">{course.description}</p>
 
 				<div className="mb-6">
-					<div className="flex items-center mb-4">
-						<span className="text-4xl font-semibold font-mono text-gray-900">${course.price}</span>
-						<span className="ml-2 text-sm text-gray-500">USD</span>
+					<div className="flex items-center">
+						<span className="text-4xl font-semibold font-mono text-gray-900">₦{course.price}</span>
+						<span className="ml-2 font-semibold text-gray-500">k</span>
 						{featured && (
 							<span className="ml-3 text-xs font-medium bg-green-100 text-green-800 py-1 px-2 rounded">
 								20% OFF

@@ -14,10 +14,10 @@ const coursesData = [
 			"Kickstart your journey as a Front-End Dev today. Master modern tools like React, Next.js, and Firebase to craft exceptional web experiences.",
 		fullDescription:
 			"Master the art of creating beautiful, responsive, and interactive web interfaces. Our Frontend Development course equips you with essential skills in HTML, CSS, JavaScript, TypeScript, React, Next.js, and Firebase to build engaging user experiences that stand out in today's digital landscape.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		level: "Beginner",
 		img: reactLogo,
-		cost: "$250 (Flexible Payment)",
+		cost: "₦140k (Flexible Payment)",
 		projects: "3 Portfolio Projects",
 		schedule: "Mondays, and Fridays",
 		prerequisites: [
@@ -78,10 +78,10 @@ const coursesData = [
 			"Build robust, scalable server-side applications with Node.js, Express, TypeScript, and MongoDB. Master DevOps and cloud engineering fundamentals.",
 		fullDescription:
 			"Learn to build the backbone of modern web applications with our Backend Development course. Master server-side programming with TypeScript, RESTful API design, data validation with Zod, MongoDB, cloud deployment, and DevOps practices to create powerful, scalable web services that form the foundation of today's digital experiences.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		level: "Intermediate",
 		img: jsLogo,
-		cost: "$300 (Flexible Payment)",
+		cost: "₦140k (Flexible Payment)",
 		projects: "3 Server Applications",
 		schedule: "Mondays, and Fridays",
 		prerequisites: [
@@ -136,10 +136,10 @@ const coursesData = [
 			"Master both client and server technologies to build complete web applications with React, Next.js, Node.js, cloud services, DevOps, and Web3 fundamentals.",
 		fullDescription:
 			"Become a complete web developer with our comprehensive Full Stack Development program. Master both frontend and backend technologies to build end-to-end web applications from database design to responsive user interfaces using modern frameworks, cloud services, and emerging Web3 technologies.",
-		duration: "6 Months | 4 days weekly",
+		duration: "4 Months | 4 days weekly",
 		level: "Beginner",
 		img: nextLogo,
-		cost: "$500 (Flexible Payment)",
+		cost: "₦200k (Flexible Payment)",
 		projects: "3 Complete Web Applications",
 		schedule: "Mondays, Tuesdays, Thursday's and Fridays",
 		prerequisites: [
@@ -203,10 +203,10 @@ const coursesData = [
 			"Create intuitive, beautiful digital experiences that users love. Master the principles of user-centered design across various products and industries.",
 		fullDescription:
 			"Learn to create intuitive, beautiful, and effective digital experiences with our UI/UX Design course. Master the principles of user-centered design, visual communication, and usability testing to build interfaces that delight users and solve real problems.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		level: "Beginner",
 		img: figmaLogo,
-		cost: "$130 (Flexible Payment)",
+		cost: "₦120k (Flexible Payment)",
 		projects: "4 Design Projects",
 		schedule: "Tuesdays, and Fridays",
 		prerequisites: [
@@ -261,10 +261,10 @@ const coursesData = [
 			"Unlock your creative potential and learn how to bring ideas to life through compelling visual design for both digital and print media.",
 		fullDescription:
 			"Develop the skills to create stunning visual content for print and digital media. Our Graphic Design course covers fundamental design principles, industry-standard software, and practical techniques for effective visual communication in today's design landscape.",
-		duration: "3 Months | 2 days weekly",
+		duration: "2 Months | 2 days weekly",
 		level: "Beginner",
 		img: psLogo,
-		cost: "$130 (Flexible Payment)",
+		cost: "₦100k (Flexible Payment)",
 		projects: "5 Design Projects",
 		schedule: "Mondays, and Tuesdays",
 		prerequisites: [
@@ -312,63 +312,63 @@ const coursesData = [
 		],
 	},
 	{
-    title: "Cloud",
-    title2: "Fundamentals",
-    slug: "cloud-fundamentals",
-    description:
-      "Master cloud infrastructure and DevOps practices. Learn AWS, Azure, containerization, CI/CD pipelines, and infrastructure as code to build scalable, resilient systems.",
-    fullDescription:
-      "Become proficient in designing, implementing, and managing cloud-based systems with our comprehensive Cloud Fundamentals course. Learn to architect scalable infrastructure on major cloud platforms, implement containerization, build automated CI/CD pipelines, and employ Infrastructure as Code practices for modern application deployment.",
-    duration: "3 Months | 2 days weekly",
-    level: "Intermediate",
-    img: cloudLogo,
-    cost: "$200 (Flexible Payment)",
-    projects: "3 Cloud Infrastructure Projects",
-    schedule: "Tuesdays and Wednesdays",
-    prerequisites: [
-      "A Laptop (8GB RAM, 256GB SSD recommended)",
-      "Basic understanding of networking concepts",
-      "Familiarity with command line interfaces",
-    ],
-    aboutContent:
-      "Cloud Fundamentals focuses on essential infrastructure management, automation, and DevOps practices to build and maintain scalable cloud-based systems. In this course, you'll learn to architect solutions on major cloud platforms, implement containerization with Docker and Kubernetes, design CI/CD pipelines, and utilize Infrastructure as Code tools like Terraform. You'll master monitoring, security best practices, and cost optimization strategies to create efficient, reliable cloud systems.",
-    benefits: [
-      "Gain hands-on experience with AWS, Azure, and Google Cloud Platform",
-      "Master containerization and orchestration with Docker and Kubernetes",
-      "Build automated CI/CD pipelines for continuous deployment",
-      "Implement Infrastructure as Code using Terraform and CloudFormation",
-      "Learn cloud security, compliance, and cost optimization strategies",
-    ],
-    modules: [
-      {
-        title: "Cloud Platforms and Infrastructure",
-        topics: [
-          { name: "Introduction to Cloud Computing and Service Models", task: "Assignment" },
-          { name: "AWS Core Services - EC2, S3, RDS, and IAM", task: "Assignment" },
-          { name: "Virtual Networks, Load Balancing, and Auto-scaling", task: "Project" },
-          { name: "Multi-cloud Strategies and Azure/GCP Fundamentals", task: "Project" },
-        ],
-      },
-      {
-        title: "Containerization and Orchestration",
-        topics: [
-          { name: "Docker Fundamentals and Container Management", task: "Assignment" },
-          { name: "Kubernetes Architecture and Cluster Deployment", task: "Project" },
-          { name: "Container Security and Resource Management", task: "Assignment" },
-          { name: "Implementing Microservices with Containers", task: "Project" },
-        ],
-      },
-      {
-        title: "DevOps and Infrastructure Automation",
-        topics: [
-          { name: "Infrastructure as Code with Terraform", task: "Assignment" },
-          { name: "CI/CD Pipeline Design and Implementation", task: "Project" },
-          { name: "Monitoring, Logging, and Observability in the Cloud", task: "Project" },
-          { name: "Cloud Security, Compliance, and Cost Optimization", task: "Final Project" },
-        ],
-      },
-    ],
-  }
+		title: "Cloud",
+		title2: "Fundamentals",
+		slug: "cloud-fundamentals",
+		description:
+			"Master cloud infrastructure and DevOps practices. Learn AWS, Azure, containerization, CI/CD pipelines, and infrastructure as code to build scalable, resilient systems.",
+		fullDescription:
+			"Become proficient in designing, implementing, and managing cloud-based systems with our comprehensive Cloud Fundamentals course. Learn to architect scalable infrastructure on major cloud platforms, implement containerization, build automated CI/CD pipelines, and employ Infrastructure as Code practices for modern application deployment.",
+		duration: "2 Months | 2 days weekly",
+		level: "Intermediate",
+		img: cloudLogo,
+		cost: "₦200k (Flexible Payment)",
+		projects: "3 Cloud Infrastructure Projects",
+		schedule: "Tuesdays and Wednesdays",
+		prerequisites: [
+			"A Laptop (8GB RAM, 256GB SSD recommended)",
+			"Basic understanding of networking concepts",
+			"Familiarity with command line interfaces",
+		],
+		aboutContent:
+			"Cloud Fundamentals focuses on essential infrastructure management, automation, and DevOps practices to build and maintain scalable cloud-based systems. In this course, you'll learn to architect solutions on major cloud platforms, implement containerization with Docker and Kubernetes, design CI/CD pipelines, and utilize Infrastructure as Code tools like Terraform. You'll master monitoring, security best practices, and cost optimization strategies to create efficient, reliable cloud systems.",
+		benefits: [
+			"Gain hands-on experience with AWS, Azure, and Google Cloud Platform",
+			"Master containerization and orchestration with Docker and Kubernetes",
+			"Build automated CI/CD pipelines for continuous deployment",
+			"Implement Infrastructure as Code using Terraform and CloudFormation",
+			"Learn cloud security, compliance, and cost optimization strategies",
+		],
+		modules: [
+			{
+				title: "Cloud Platforms and Infrastructure",
+				topics: [
+					{ name: "Introduction to Cloud Computing and Service Models", task: "Assignment" },
+					{ name: "AWS Core Services - EC2, S3, RDS, and IAM", task: "Assignment" },
+					{ name: "Virtual Networks, Load Balancing, and Auto-scaling", task: "Project" },
+					{ name: "Multi-cloud Strategies and Azure/GCP Fundamentals", task: "Project" },
+				],
+			},
+			{
+				title: "Containerization and Orchestration",
+				topics: [
+					{ name: "Docker Fundamentals and Container Management", task: "Assignment" },
+					{ name: "Kubernetes Architecture and Cluster Deployment", task: "Project" },
+					{ name: "Container Security and Resource Management", task: "Assignment" },
+					{ name: "Implementing Microservices with Containers", task: "Project" },
+				],
+			},
+			{
+				title: "DevOps and Infrastructure Automation",
+				topics: [
+					{ name: "Infrastructure as Code with Terraform", task: "Assignment" },
+					{ name: "CI/CD Pipeline Design and Implementation", task: "Project" },
+					{ name: "Monitoring, Logging, and Observability in the Cloud", task: "Project" },
+					{ name: "Cloud Security, Compliance, and Cost Optimization", task: "Final Project" },
+				],
+			},
+		],
+	},
 ];
 
 export default coursesData;
